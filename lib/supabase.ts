@@ -2,8 +2,8 @@ import { createClient } from '@supabase/supabase-js';
 
 // استبدل هذه القيم بالقيم الخاصة بمشروعك من لوحة تحكم Supabase
 // Settings -> API
-const supabaseUrl = 'https://YOUR_PROJECT_URL.supabase.co';
-const supabaseKey = 'YOUR_ANON_PUBLIC_KEY';
+const supabaseUrl = 'https://bzkwdedbkageanseadjo.supabase.co';
+const supabaseKey = 'sb_publishable_AIgeihWUzA_b8uNFOAJROg__Hv2GDAi';
 
 export const supabase = createClient(supabaseUrl, supabaseKey);
 
